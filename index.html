@@ -6,24 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+        div
+        {
+        border: 1px solid black;
+        }
+        div a
+        {
+        color: red;
+        }
+        li a
+        {
+            color: lightblue;
+        }
+        #special-link
+        {
+            color: black;
+        }
+        .regular-link
+        {
+            color: brown;
+        }
+        .italic
+        {
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <h1>I'm an h1</h1>
     <ul>
-        <li ><a href="www.example.com" style="color: red;">Link</a></li>
-        <li ><a href="www.example.com" style="color: red;">Link</a></li>
-        <li ><a href="www.example.com" style="color: red;">Link</a></li>
+        <li ><a href="www.example.com" id="special-link">Link</a></li>
+        <li><a href="www.example.com" class="regular-link italic">Link</a></li>
+        <li><a href="www.example.com" class="regular-link italic">Link</a></li>
     </ul>
     <h2>I'm an h2</h2>
     <div >
-        <a href="https://emaple.com" style="color: green;">I'm a link</a>
+        <a href="https://emaple.com">I'm a link</a>
     </div>
     <div>
-        <a href="https://emaple.com" style="color: green;">I'm a link</a>
+        <a href="https://emaple.com">I'm a link</a>
     </div>
     <div>
-        <a href="https://emaple.com" style="color: green;">I'm a link</a>
+        <a href="https://emaple.com">I'm a link</a>
     </div>
 </body>
 </html>
