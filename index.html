@@ -6,15 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
-        div
-        {
-        border: 1px solid black;
-        }
-        div a
-        {
-        color: red;
-        }
         li a
         {
             color: lightblue;
@@ -31,6 +22,17 @@
         {
             font-style: italic;
         }
+        #exec-bio
+        {
+            background-color: lightgray;
+        }
+        .bio-box
+        {
+            border: 1px solid #000;
+        }
+        .bio-box a{
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -41,13 +43,13 @@
         <li><a href="www.example.com" class="regular-link italic">Link</a></li>
     </ul>
     <h2>I'm an h2</h2>
-    <div >
+    <div id = "exec-bio" class="bio-box">
         <a href="https://emaple.com">I'm a link</a>
     </div>
-    <div>
+    <div class ="bio-box">
         <a href="https://emaple.com">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="https://emaple.com">I'm a link</a>
     </div>
 </body>
